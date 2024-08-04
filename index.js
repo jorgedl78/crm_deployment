@@ -35,8 +35,8 @@ app.use(express.static('uploads'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
 
+/*
 //definir un dominio(s) para recibir las peticiones (armar una lista blanca)
-
 const whiteList = [process.env.FRONTEND_URL];
 //const whiteList = ['http://localhost:3000','http://otroServidor:xxxx'];
 const corsOptions = {
@@ -51,10 +51,10 @@ const corsOptions = {
     }
   }
 }
-
-
 //habilitar cors
-app.use(cors(corsOptions));
+app.use(cors(corsOptions));*/
+
+app.use(cors());
 
 app.use('/', routes());
 
