@@ -27,6 +27,10 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const app = express();
 
+// habilitamos carpeta publica
+app.use(express.static('uploads'));
+
+
 // havilitar body parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
@@ -54,8 +58,7 @@ app.use(cors(corsOptions));
 
 app.use('/', routes());
 
-// habilitamos carpeta publica
-app.use(express.static('uploads'));
+
 
 const host = process.env.HOST || '0.0.0.0';
 const port = process.env.PORT || 5000;
