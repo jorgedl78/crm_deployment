@@ -55,14 +55,14 @@ const corsOptions = {
 //habilitar cors
 app.use(cors(corsOptions));*/
 
-//app.use(cors());
+app.use(cors());
 
-// Configura CORS para permitir solicitudes desde Netlify
+/*// Configura CORS para permitir solicitudes desde Netlify
 app.use(cors({
   origin: 'https://magical-bonbon-6c4870.netlify.app', // Reemplaza con la URL de tu aplicación Netlify
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true
-}));
+}));*/
 
 app.use('/', routes());
 
