@@ -41,7 +41,7 @@ const whiteList = [process.env.FRONTEND_URL];
 //const whiteList = ['http://localhost:3000','http://otroServidor:xxxx'];
 const corsOptions = {
   origin: (origin, callback) => {
-    //console.log(origin);
+    console.log(origin);
     //Revisar si la petición viene de un servidor que está en whiteList
     const existe = whiteList.some(dominio => dominio === origin);
     if(existe) {
