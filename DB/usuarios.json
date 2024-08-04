@@ -1,0 +1,3 @@
+{"_id":{"$oid":"66a2d2efa3b3771ae89897d6"},"email":"juan@correo.com","nombre":"Juan","password":"$2b$12$weuuyk4B3cWcmCNdGUZrnefd/CzJKGvZkEr2wWLmCrKAyPKCXCDb6","__v":0}
+{"_id":{"$oid":"66a2d483a3b3771ae89897d8"},"email":"pedro@correo.com","nombre":"Pedro","password":"$2b$12$P7PRZz31zvAoFoX.Ocfyx.GUVaj5TI2BgiVBov0ACFB0YhgSgj9dy","__v":0}
+{"_id":{"$oid":"66ae46ab62f8d336f3884641"},"email":"jorge@correo.com","nombre":"Jorge de León","password":"$2b$12$yoVx881BOKnr5opg3Fl20uXbgRQesBnxdtd0PbatRcOOr.rJu4j/y","__v":0}

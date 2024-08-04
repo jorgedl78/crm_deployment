@@ -1,0 +1,6 @@
+{"_id":{"$oid":"669609d697ca80d418a00229"},"nombre":"María Inésa","apellido":"Suarez Perez","empresa":"i20","email":"correo2@correo.com","telefono":"7647647654","__v":0}
+{"_id":{"$oid":"6698596a7c3713b560f15e9c"},"nombre":"Sofía","apellido":"de León","empresa":"House black","email":"correo7@correo.com","telefono":"234533222","__v":0}
+{"_id":{"$oid":"669895552ec2d9b8dfd35b78"},"nombre":"Elena","apellido":"de Leon","empresa":"JP","email":"elena@gmail.com","telefono":"765765765","__v":0}
+{"_id":{"$oid":"669949322ec2d9b8df619841"},"nombre":"Sebastián","apellido":"Lopez","empresa":"Postman","email":"seba@correo.com","telefono":"54545","__v":0}
+{"_id":{"$oid":"66ae44581eb5edf7438b00b7"},"nombre":"Jorge de León","email":"jorge@correo.com","__v":0}
+{"_id":{"$oid":"66ae9b48a22913513363f85d"},"nombre":"Pedro","apellido":"sason","empresa":"fgg","email":"pedro@correo.com","telefono":"232323","__v":0}

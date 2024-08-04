@@ -1,0 +1,5 @@
+{"_id":{"$oid":"6696a0c7e18e368ad5c938ae"},"nombre":"Camisa React.js","precio":2500,"__v":0,"imagen":"9nlvVEw9E.jpeg"}
+{"_id":{"$oid":"6696a5acbf7aee915a362c31"},"nombre":"Camisa VueJS","precio":29,"imagen":"24BPE3wv-.jpeg","__v":0}
+{"_id":{"$oid":"669f1b751e1d17a64da9f739"},"nombre":"React","precio":234,"imagen":"ZLGloJucz.jpeg","__v":0}
+{"_id":{"$oid":"669f1c931e1d17a64daa6fb1"},"nombre":"html","precio":123,"imagen":"oo6G22kf6.jpeg","__v":0}
+{"_id":{"$oid":"669f1e271e1d17a64dab17b2"},"nombre":"Node","precio":874,"imagen":"fBgw5Kpyl.jpeg","__v":0}
