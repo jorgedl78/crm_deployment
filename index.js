@@ -41,19 +41,20 @@ const whiteList = [process.env.FRONTEND_URL];
 //const whiteList = ['http://localhost:3000','http://otroServidor:xxxx'];
 const corsOptions = {
   origin: (origin, callback) => {
-    console.log(origin);
+    console.log('origin: ', origin);
     //Revisar si la petición viene de un servidor que está en whiteList
     const existe = whiteList.some(dominio => dominio === origin);
     if(existe) {
       callback(null, true);
     }else{
+      console.log('Acceso no permitido por CORS')
       callback(new Error('Acceso no permitido por CORS'));
     }
   }
 }
 //habilitar cors
-app.use(cors(corsOptions));*/
-
+app.use(cors(corsOptions));
+*/
 app.use(cors());
 
 app.use('/', routes());
