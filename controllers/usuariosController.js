@@ -19,6 +19,8 @@ exports.registrarUsuario = async (req, res) => {
 
 exports.autenticarUsuario = async (req, res, next) => {
     //buscar el usuario para saber si existe
+    console.log(req.body);
+
     const { email, password } = req.body;
     const usuario = await Usuarios.findOne({ email: email}); 
 
