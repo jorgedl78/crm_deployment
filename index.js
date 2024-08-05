@@ -46,10 +46,10 @@ const corsOptions = {
     //Revisar si la petición viene de un servidor que está en whiteList
     const existe = whiteList.some(dominio => dominio === origin);
     if(existe) {
-      console.log('El dominio esta autorizado: ', dominio);
+      //console.log('El dominio esta autorizado: ', dominio);
       callback(null, true);
     }else{
-      console.log('Acceso no permitido por CORS');
+      //console.log('Acceso no permitido por CORS');
       callback(new Error('Acceso no permitido por CORS'));
     }
   }
