@@ -13,7 +13,7 @@ const cors = require('cors');
 mongoose.Promise = global.Promise;
 //const uri = "mongodb://localhost/restapis";
 const uri = process.env.DB_URL;
-mongoose.connect(uri, { useUnifiedTopology: true, tls: true });
+mongoose.connect(uri, { useUnifiedTopology: true});
 
 /*mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
